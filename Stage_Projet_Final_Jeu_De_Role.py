@@ -1,6 +1,6 @@
 """
    @title : Programme principale de Jeu de rôle 
-   @dev : Ce programme permet de simuler un duel entre le joueur et un ordinateur. Le joeur peut soit attaquer l'rodinateur soit se soigner. Le but du jeu est que l'ordinateur ai 0 points de vie.
+   @dev : Ce programme permet de simuler un duel entre le joueur et un ordinateur. Le joeur peut soit attaquer l'ordinateur soit se soigner. Le but du jeu est que l'ordinateur ai 0 points de vie.
 """
 
 # Modules du programme 
