@@ -1,11 +1,21 @@
+"""
+   @title : Programme principale de Jeu de rôle 
+   @dev : Ce programme permet de simuler un duel entre le joueur et un ordinateur. Le joeur peut soit attaquer l'rodinateur soit se soigner. Le but du jeu est que l'ordinateur ai 0 points de vie.
+"""
+
+# Modules du programme 
 import random
 
-ENNEMY_HEALTH = 50
-PLAYER_HEALTH = 50
-Numer_of_potions = 3
+# paramètres 
+ENNEMY_HEALTH = 50 # L'enemi commence à 50PVs
+PLAYER_HEALTH = 50 # Le joueur commence avec 50 PVs
+Numer_of_potions = 3 # Le joueur commence avec trois potions  
 Skip_turn = False
 
 
+"""
+    @dev :  boucle principale. Si le joeur ou l'ordinateur tombe à 0 PVs, le jeu se termine 
+"""
 while True:
     # Jeux du joueur
     if Skip_turn:
@@ -32,7 +42,8 @@ while True:
             else:
                 print("vous n'avez plus de potion..")
                 continue
-
+    
+    # Fin de partie : victoire 
     if ENNEMY_HEALTH <= 0:
            print("Bravo tu as gagner !")
            break
@@ -40,6 +51,7 @@ while True:
     PLAYER_HEALTH -= ennemy_attack
     print(f"l'ennemi vous a infliger {ennemy_attack} degats")
 
+    # Fin de partie :  Defaite
     if PLAYER_HEALTH <= 0:
         print("tu as perdu")
         break
@@ -49,4 +61,5 @@ while True:
     print("-" * 40)
 
 
+# Fin du jeu
 print("fin du jeu") 
