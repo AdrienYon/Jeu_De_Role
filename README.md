@@ -8,7 +8,7 @@ Le fichier Jeu_De_Role permet comme son nom l'indique de jouer à un jeux de rol
 -Le premier dont la vie atteint ou est inférieure a 0 à perdue.
 
 Bonne Chance !
-### Pour y acceder aller dans le fichier Jeu_De_Role.py 
+### Pour y acceder aller dans le fichier Jeu_De_Role.py.
 
 ## Le répertoire Modèles 
 Pour ce qui est des autres programmes c'était seulement pour m'entrainer et faire connaissance avec le language Python, si vous pensez que des modification sont a faire n'hésitez pas.
