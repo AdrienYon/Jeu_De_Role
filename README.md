@@ -21,3 +21,8 @@ Il vous permettra tout comme a moi de vous familiarisez avec les commandes de gi
 ## Le fichier stageTest.py
 Ce fichier était un Test pour savoir si j'arriver via mon terminal à envoyer des fichiers ou dossiers sur Github.
 #### Pour y acceder aller sur stageTest.py
+
+
+## Formation Python
+Ce qui m'a permis d'écrire de tels programme apres seulement 3jours d'apprentissage à Python est une formation gratuite en ligne sur Youtube:
+https://youtu.be/LamjAFnybo0
