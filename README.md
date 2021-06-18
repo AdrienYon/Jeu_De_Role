@@ -17,3 +17,7 @@ Pour ce qui est des autres programmes c'était seulement pour m'entrainer et fai
 ## Le fichier commande.github
 Il vous permettra tout comme a moi de vous familiarisez avec les commandes de git et comment les utiliser sur les consoles de vos systeme d'exploitation.
 #### Pour y acceder aller dans le fichier "commande.github.md"
+
+## Le fichier stageTest.py
+Ce fichier était un Test pour savoir si j'arriver via mon terminal à envoyer des fichiers ou dossiers sur Github.
+#### Pour y acceder aller sur stageTest.py
